@@ -2,7 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 int main(){
-  int num,sum=0;
+  int num;
+  int sum =0;
   srand((unsigned int)time(NULL));
   printf("Rolling dice. . .\n");
   for(int i=0;i<2;i++){
