@@ -12,4 +12,9 @@ int main(){
     sum+=num;
   }
   printf("Total value: %d\n",sum);
+   if(sum>7)
+    printf("You won\n");
+  else printf("You lost\n");
+
+  return 0;
 }
